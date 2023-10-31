@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file=~/tmp/$(date "+%Y%m%d-%H%M%S")_screenshot.png
+file=/tmp/$(date "+%Y%m%d-%H%M%S")_screenshot.png
 grim -g "$(slurp)" - | swappy -f - -o - | pngquant - -o "$file" &&
 yad --title="Upload OK?" --text="Upload OK?" --image="dialog-question" --default-cancel &&
 curl -F"file=@$file" https://0x0.st | wl-copy -n &&
