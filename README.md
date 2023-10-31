@@ -1,6 +1,6 @@
 # shellscripts
 - tiny tools.
-- Generally for swaywm on arch linux.
+- Roughly, it is for swaywm on Arch Linux.
 - If there is no command, check the required package with `paru -F command` , etc. and install it.
 
 ## screenshot-upload.sh
