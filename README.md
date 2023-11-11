@@ -14,4 +14,4 @@ Get OCR of selection and open with neovim
 
 ## dpms-toggle-all.sh
 
-Toggle the output of the currently enabled disk
+Toggle the output of the currently enabled display
